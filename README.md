@@ -11,5 +11,9 @@ Issues:
 
 Ask
 -is the header, footer supposed to be inside of the body tag?
--why is footer not sticking at the bottom?  see contact us
+-why is footer not sticking at the bottom?  see contact us without w3 css
+
+
+
+
 
