@@ -13,6 +13,26 @@
 
 }
 
+/*-----------------re-usable-------------------
+    Size{
+        
+    margin: 0 auto;
+    width: 960px;
+    }
+
+
+clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+
+ <!--
+<img src="https://via.placeholder.com/150">  -->
+
+
+------------------------------------------------------*/
     
 body{
 
@@ -120,12 +140,14 @@ h1{
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
-    margin: 20px;
     border-bottom: solid #dddddd;
     padding: 20px;
    
-    
 
+}
+
+.part-one, .part-two {
+    margin: 30px;
 }
 
 
