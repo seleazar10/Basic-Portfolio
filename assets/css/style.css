@@ -191,7 +191,9 @@ h1{
 }
 
 .part-two{
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
 }
 
 
@@ -223,7 +225,15 @@ h1{
 /*-----------------------Portfolio----------------------------*/
 
 
+.sec-img{
+    text-align: center;
+}
 
+.port-imgs{
+    
+    margin: 20px;
+    width: 150px;
+}
 
 
 
