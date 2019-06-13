@@ -36,6 +36,10 @@ clearfix::after {
     
 body{
 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;   
 
@@ -43,9 +47,34 @@ body{
     
    
 }
+/*---------------------------flexbox element from web----------------------------*/
+
+
+
+.container {
+   min-height:100%;
+   position:relative;
+}
+header {
+   background:#fff;
+   padding:10px;
+}
+.first-sec {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#666666;
+}
+
+/*---------------------------flexbox element from web----------------------------*/
 
 /*----------------------------------------------------------------------------------------------------------------------
-=                       Header Ends                     =
+=                       Header starts                     =
 -----------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -155,6 +184,12 @@ h1{
     float: left;
     margin: 0 20px 20px 0;
     width: 150px;
+}
+
+.foot-note{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
 }
 
 
