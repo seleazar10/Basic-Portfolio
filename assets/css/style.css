@@ -1,6 +1,6 @@
-*{
+*, *::after {
     margin: 0PX;
-    padding: OPX;
+    padding: 0PX;
     box-sizing: border-box;
 }
 
@@ -15,12 +15,13 @@
 
 .main_navig {
     background-color: #000;
+    margin: 0 auto;
+    width: 960px;
 }
     
 body{
-    margin: 0 auto;
-    width: 960px;
-    background-color: beige;
+    
+    background-color: #fff;
    
 }
 
@@ -33,7 +34,7 @@ header{
 h1{
     float: left;
     margin: 5px 50px 0 0;
-    background-color: #8ebeec;   
+    background-color: #4aaaa5;   
     color: #fff;
     padding: 30px;
 }
@@ -51,6 +52,7 @@ h1{
     display: inline-block;
     margin: 10px;
     
+    
 }
 
 
@@ -60,24 +62,33 @@ h1{
     color:#000;
     border-bottom: solid;
     border-bottom-color: transparent;
+    color: #cccccc;
 
 }
     
 .nav_options li a:active,
 .nav_options li a:hover {
-    color: #b9b222;
+    color: #4aaaa5;
     font-size: 21px;
     border-bottom: solid;
     
 }
 
+
 .one{
-    margin-top: 30px;
-    background-color: gainsboro;
+
+    border-top-style: solid;
+    border-color: #cccccc;
+
 }
+
 
 .me{
     font-size: 22px;
-    color: #8ebeec;
+    color: #4aaaa5; 
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 20px;
+
 
 }
