@@ -13,6 +13,10 @@
 
 }
 
+html{
+    text-rendering: optimizeLegibility;
+}
+
 /*-----------------re-usable-------------------
     Size{
         
@@ -238,4 +242,28 @@ h1{
 }
 
 
+.flex-container {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    
+  }
+ 
 
+ 
+  .flex-container > div {
+      /*background-image: <img src="https://via.placeholder.com/150">*/
+    background-color: #4aaaa5;
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    
+
+  }
+
+  .port-link{
+    text-decoration: none;
+    color: #fff;
+    
+  }
