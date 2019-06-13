@@ -48,12 +48,14 @@ body{
 }
 /*---------------------------flexbox element from web----------------------------*/
 
-
-
+/*
 .container {
-   min-height:100%;
-   position:relative;
-}
+    min-height:100%;
+    position:relative;
+
+    */
+
+
 header {
    background:#fff;
    padding:10px;
@@ -144,6 +146,7 @@ h1{
 .first-sec{
     border-top-style: solid;
    border-top-color: #dddddd;
+   background-color: #f3ffe9;;
 
   /*---- 
 
@@ -168,6 +171,7 @@ h1{
     border: solid;
     border-color: #cccccc;
     margin-top: 25px;
+    margin-bottom: 50px;
 
 
 }
@@ -186,6 +190,10 @@ h1{
     margin: 30px;
 }
 
+.part-two{
+    padding-bottom: 30px;
+}
+
 
 .mypic{
     float: left;
@@ -198,6 +206,25 @@ h1{
     text-align: center;
     margin-top: 40px;
 }
+
+
+/*-----------------------Contact----------------------------*/
+
+.btn:link
+.btn:visited{
+
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 7px 17px;
+    text-decoration: none;
+
+}
+
+/*-----------------------Portfolio----------------------------*/
+
+
+
 
 
 
