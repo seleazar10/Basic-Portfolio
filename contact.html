@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--Reset
+ <link rel="stylesheet" type="text/css" href="assets/css/WebFound-CSS/normalize.css">
+-->
+ 
+
+  <!--form style from W3-->  
+  <link rel="stylesheet" type="text/css" href="assets/css/WebFound-CSS/form-style.css">
+  <!--form style-->
+
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Stama Eleazar - Portfolio</title>
 
@@ -41,7 +51,8 @@
 
 
 <!---------------------------------------------------Section--------------------------------------------------------->
-        
+  
+<!----------------------------------------------------------------original code--------------------
 <section class="first-sec">
 
         <div class="sec-border">
@@ -76,6 +87,43 @@
 
 
     </section>
+
+    ----------------------------------------------------------------->
+
+    <!----------------W3 form HTML------------------->
+    <section class="first-sec">
+
+            <div class="sec-border">
+
+    <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="Reason">Reason</label>
+              <select id="country" name="country">
+                <option value="Business Opportunity">Business Opportunity</option>
+                <option value="Collaboration">Collaboration</option>
+                <option value="Other Inquiry">Other Inquiry</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+
+        </div>
+
+    </section>
+
+
 
 <!---------------------------------------------------Section--------------------------------------------------------->
 
