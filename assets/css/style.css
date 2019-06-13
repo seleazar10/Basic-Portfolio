@@ -210,8 +210,7 @@ h1{
 
 /*-----------------------Contact----------------------------*/
 
-.btn:link
-.btn:visited{
+.btn{
 
     display: inline-block;
     background-color: #4aaaa5;
