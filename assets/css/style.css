@@ -13,15 +13,14 @@
 
 }
 
-.main_navig {
-    background-color: #000;
-    margin: 0 auto;
-    width: 960px;
-}
     
 body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;   
+
+    /* background-color: #fff; */
     
-    background-color: #fff;
    
 }
 
@@ -30,28 +29,39 @@ header{
 
 }
 
+.main_navig {
+    
+    margin: 0 auto;
+    width: 960px;
+    /* ----- background-color: #000; ----- */
+}
 
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
-    margin: 5px 50px 0 0;
     background-color: #4aaaa5;   
     color: #fff;
     padding: 30px;
+    /*  ---- margin: 5px 50px 0 0; --- */
+
 }
 
 
 .nav_options {
-    float: right;
+
+    float: right;    
+    margin-top: 10px;
+    /*---
     list-style: none;
     text-decoration: none;
-    margin-top: 10px;
+    ----*/
 
 }
 
 .nav_options li{
+   
     display: inline-block;
     margin: 10px;
-    
     
 }
 
@@ -59,36 +69,45 @@ h1{
 .nav_options li a:link,
 .nav_options li a:visited {
     text-decoration: none;
-    color:#000;
     border-bottom: solid;
     border-bottom-color: transparent;
-    color: #cccccc;
+    color: #777777;
 
 }
     
 .nav_options li a:active,
 .nav_options li a:hover {
     color: #4aaaa5;
-    font-size: 21px;
+    font-size: 18px;  
     border-bottom: solid;
     
 }
 
 
-.one{
+.part-one{
 
     border-top-style: solid;
     border-color: #cccccc;
+ 
 
 }
 
+.first-sec{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 960px;
+    border: solid;
+    margin-top: 25px;
+    
+
+}
 
 .me{
     font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
-    margin: 0 auto;
-    width: 960px;
     margin-top: 20px;
-
-
+   
 }
+
+
