@@ -24,6 +24,11 @@ body{
    
 }
 
+/*----------------------------------------------------------------------------------------------------------------------
+=                       Header Ends                     =
+-----------------------------------------------------------------------------------------------------------------------*/
+
+
 header{
     margin-top: 10px;
 
@@ -51,6 +56,7 @@ h1{
 
     float: right;    
     margin-top: 10px;
+
     /*---
     list-style: none;
     text-decoration: none;
@@ -83,31 +89,44 @@ h1{
     
 }
 
+/*----------------------------------------------------------------------------------------------------------------------
+=                       Header Ends                     =
+-----------------------------------------------------------------------------------------------------------------------*/
 
-.part-one{
-
+.first-sec{
     border-top-style: solid;
-    border-color: #cccccc;
- 
+    border-color: #dddddd;
+   
+/*=============================================
+=         Possible background  
+    background-color: #777777;             =
+=============================================*/
+
 
 }
 
-.first-sec{
+.sec-border{
     background-color: #fff;
     margin: 0 auto;
     width: 960px;
     border: solid;
+    border-color: #cccccc;
     margin-top: 25px;
+
+
+}
+
+.part-one{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5; 
+    margin: 20px;
+    border-bottom: solid #dddddd;
+    padding: 20px;
+   
     
 
 }
 
-.me{
-    font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5; 
-    margin-top: 20px;
-   
-}
 
 
