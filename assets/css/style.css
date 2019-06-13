@@ -152,6 +152,7 @@ h1{
     border-top-style: solid;
    border-top-color: #dddddd;
    background-color: #f3ffe9;;
+   
 
   /*---- 
 
@@ -176,7 +177,7 @@ h1{
     border: solid;
     border-color: #cccccc;
     margin-top: 25px;
-    margin-bottom: 50px;
+    
 
 
 }
@@ -231,15 +232,67 @@ h1{
 /*-----------------------Portfolio----------------------------*/
 
 
-.sec-img{
-    text-align: center;
-}
 
 .port-imgs{
     
     margin: 20px;
     width: 150px;
 }
+
+
+  
+
+  .flex-container-two {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    
+  }
+ 
+ 
+  .flex-container-two > div {
+    background-color: #fff;
+    margin: 0 30px;  
+    font-size: 20px;
+    color: #fff;
+    
+
+  }
+
+
+
+  .thir-piclink{
+    position: relative;
+      text-align: center;
+      color: white;
+    }
+
+  .port-link{
+    text-decoration: none;
+    color: #fff;
+    
+  }
+
+
+  .imgtitlink{
+    width: 150px;
+}
+
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 150px;
+    padding: 3px 0;
+  }
+
+  
+/*------------------------------------------
+=Learn how to make flow elements  =
+--------------------------------------------*/
 
 
 .flex-container {
@@ -249,21 +302,22 @@ h1{
     
   }
  
-
  
   .flex-container > div {
       /*background-image: <img src="https://via.placeholder.com/150">*/
     background-color: #4aaaa5;
-    margin: 10px;
+    margin: 40px 30px;
     padding: 10px 30px;
     font-size: 20px;
     color: #fff;
+    width: 150px;
+    text-align: center;
     
 
   }
 
-  .port-link{
-    text-decoration: none;
-    color: #fff;
-    
-  }
+  /*------------------------------------------
+=Learn how to make flow elements  =
+--------------------------------------------*/
+
+
