@@ -5,6 +5,10 @@ My first portfolio!
 
 Issues:
 
-cant include the color on top of the footer.
+-cant include the color on top of the footer.
+-cant create spave between the section box and footer
 
-in portfolio css, cant include the background image for the link. 
+
+Ask
+-is the header, footer supposed to be inside of the body tag?
+
