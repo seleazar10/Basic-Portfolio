@@ -98,7 +98,7 @@ header{
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
     float: left;
     background-color: #4aaaa5;   
     color: #fff;
@@ -137,6 +137,8 @@ h1{
     border-bottom-color: transparent;
     color: #777777;
     letter-spacing: 1.5px;
+    font-family: 'Indie Flower', cursive;
+    
 
 }
     
