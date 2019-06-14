@@ -74,6 +74,10 @@ footer {
    width:100%;
    height:60px;   /* Height of the footer */
    background:#666666;
+
+
+   border-top: 5px solid #4aaaa5;
+  
 }
 
 /*---------------------------flexbox element from W3----------------------------*/
